@@ -1,68 +1,67 @@
 {
-    "editor.fontFamily": "Courier Prime Code",
     "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "breadcrumbs.enabled": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.fontFamily": "Courier Prime Code",
+    "editor.fontLigatures": false,
     "editor.formatOnPaste": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "editor.largeFileOptimizations": false,
+    "editor.multiCursorModifier": "ctrlCmd",
     "editor.quickSuggestionsDelay": 1,
+    "editor.renderControlCharacters": true,
     "editor.snippetSuggestions": "top",
     "editor.suggestSelection": "first",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
-        "vue-html": "html",
-        "vue": "html"
+        "vue": "html",
+        "vue-html": "html"
     },
     "emmet.triggerExpansionOnTab": true,
-    "eslint.autoFixOnSave": true,
     "eslint.options": {
         "extensions": [
-            ".ts",
             ".js",
+            ".ts",
             ".vue"
         ]
     },
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "relativePath.removeExtension": true,
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "vetur.format.defaultFormatter.ts": "vscode-typescript",
-    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "javascript.preferences.importModuleSpecifier": "relative",
-    "javascript.preferences.quoteStyle": "single",
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.watcherExclude": {
+        "**/node_modules/**": false,
+        "**/node_modules/**/*": true
+    },
     "git.autofetch": true,
     "git.confirmSync": false,
-    "editor.renderControlCharacters": true,
-    "breadcrumbs.enabled": true,
-    "javascript.format.insertSpaceAfterConstructor": true,
     "git.enableSmartCommit": true,
-    "editor.largeFileOptimizations": false,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "relativePath.removeExtension": true,
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
     "vetur.format.defaultFormatterOptions": {
         "js-beautify-html": {
             "wrap_attributes": "force-aligned"
         }
     },
-    "javascript.referencesCodeLens.enabled": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "typescript.format.insertSpaceAfterConstructor": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "extensions.showRecommendationsOnlyOnDemand": true,
-    "typescript.preferences.quoteStyle": "single",
-    "window.zoomLevel": -1,
-    "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
-    "files.watcherExclude": {
-        "**/node_modules/**": false,
-        "**/node_modules/**/*": true
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDelete": false,
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": -1,
     "workbench.colorTheme": "A Touch of Lilac Theme",
-    "editor.fontLigatures": null,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile"
 }
